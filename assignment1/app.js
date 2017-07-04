@@ -9,7 +9,7 @@ function LunchCheckController($scope) {
   $scope.count = 0;
   $scope.menu = '';
   $scope.messageColor = {"color" : "black"};
-  $scope.messageText = '';
+  $scope.messageText = 'Welcome to Lunch Checker';
 
   $scope.checkMenu = function(){
     var items = $scope.menu.replace(/\,[\s\,]*\,/g,',').replace(/^\,/,'').replace(/\,$/,'').split(',');
